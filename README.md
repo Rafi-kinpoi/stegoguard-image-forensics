@@ -64,3 +64,23 @@ Submit the link to your fork and the five workflow-run links below with the rele
 In two or three sentences, explain why both keyword-test runs failed and identify the log evidence that shows your new rule worked.
 
 **Optional.** Describe one situation where a legitimate image could match a configured keyword. Explain what evidence you would check before treating it as suspicious.
+## Additional Improvements
+
+- Added new suspicious keyword detection.
+- Updated the hidden demo message.
+- Added student information.
+- Improved the workflow name.
+- Improved project documentation.
+
+## Scanner Results
+
+| Scan Mode | Expected Result |
+|---|---|
+| Clean | PASSED |
+| Suspicious | FAILED |
+
+## Limitations
+
+The scanner detects suspicious keywords and
+appended image data. It does not confirm
+whether an image contains actual malware.
