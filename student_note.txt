@@ -2,7 +2,7 @@ Name: Hasan Md Ar Rafi Bin
 Student ID: 24229534
 Project: StegoGuard Image Forensics
 
-This project forked from Professor Rafik Hamza's github is an automated image forensics scanner called StegoGuard. It checks image signatures, ending markers, appended data, and suspicious keywords inside image files.
+This project forked from Professor Rafik Hamza's github is an automated image forensics scanner called StegoGuard. It checks image signatures, ending markers, appended data, and suspicious keywords inside image files. It identifies if an image has something hidden in the file or not and if there is hidden then based on the suspicious word list in the scanner, it scans for the hidden text and shows the scan results. For this project, a demo image is created for each scan and then temporaility saved on student image file and after the scan is complete it is removed from the servers. 
 
 My tasks included improving the scanner by adding a new keyword called malware and modifying the hidden demo message to test its detection capability. I also improved the workflow name, project documentation, and added a student note.
 
